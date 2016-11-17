@@ -15,7 +15,6 @@ class RouteService(object):
     """
     __BASE_MQAPI_URL__ = 'http://mapquestapi.com'
     __INT_MQAPI_URL__ = 'http://web-integration.mapquestapi.com'
-    __BASE_POIQRY_URK__ = 'http://cdr-pqrs-int.cloud.mapquest.com/'
 
     __GUIDANCE__ = 'guidance/v2'
     __DIRECTIONS__ = 'directions/v2'
