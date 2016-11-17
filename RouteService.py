@@ -14,7 +14,6 @@ class RouteService(object):
     More details at http://www.mapquestapi.com/directions/
     """
     __BASE_MQAPI_URL__ = 'http://mapquestapi.com'
-    __INT_MQAPI_URL__ = 'http://web-integration.mapquestapi.com'
 
     __GUIDANCE__ = 'guidance/v2'
     __DIRECTIONS__ = 'directions/v2'
