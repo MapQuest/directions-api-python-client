@@ -27,6 +27,7 @@ The FromSession function fetches a previously computed route given a session ID.
 
 Example:
 
+```python
 from RouteOptions import RouteOptions
 from AdvancedRouteOptions import AdvancedRouteOptions
 from RouteShapeOptions import RouteShapeOptions
@@ -69,3 +70,4 @@ if __name__ == '__main__':
 
     # path from route
     pathFromRoute = service.pathFromRoute(locations=locations, maxTime=5)
+```
